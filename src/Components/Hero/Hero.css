@@ -1,0 +1,21 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.hero__wrap {
+    text-align: center;
+}
+.cardd {
+    display: flex;
+    gap: 50px;
+    
+    @media (max-width:900px) {
+        flex-direction: column;
+        padding-top: 50px;
+    h1 {
+        font-size: 30px;
+    }
+    }
+}
